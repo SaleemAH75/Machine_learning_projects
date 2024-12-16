@@ -1,0 +1,13 @@
+prefix=D:/diabetes_project/venv/Library
+exec_prefix=D:/diabetes_project/venv/Library
+libdir=D:/diabetes_project/venv/Library/lib
+sharedlibdir=D:/diabetes_project/venv/Library/lib
+includedir=D:/diabetes_project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
